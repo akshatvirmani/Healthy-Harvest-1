@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .hero{
     width: 100%;
     height: 100vh;
@@ -68,12 +75,13 @@
 /* ----------------------------------------------------HERO CONTENT------------------------------------- */
 
 
-/* ----------------------------------------------------INFO CONTENT------------------------------------- */
+/* ----------------------------------------------------INFO CONTENT START------------------------------------- */
 .info::before{
     content: 'How to Guide';
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 50px;
+    /* border: 2px solid purple; */
+    margin: 50px;
     /* background-color: #030303; */
 }
 
@@ -82,7 +90,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* border: 2px solid black; */
     width: 100%;
     background-color: rgba(180, 190, 151, 0.3);
 }
@@ -94,13 +102,13 @@
     align-items: center;
 }
 
-.info .card{
+.card{
     width: 25%;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgb(218, 212, 212);
 }
 
-.info .card-img{
+.card-img{
     width: 100%;
     height: 40vh;
     padding: 8px;
@@ -128,7 +136,7 @@
     
 }
 
-/* ---------------------------------------------INFO CONTENT-------------------------------------- */
+/* ---------------------------------------------INFO CONTENT END-------------------------------------- */
 
 /* ---------------------------------------------SCHEME CONTENT START--------------------------------------  */
 
@@ -293,7 +301,7 @@ img {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
     /* border: 2px solid black; */
     /* box-shadow: 1px 1px 20px rgb(168, 175, 174); */
 }
@@ -332,9 +340,21 @@ img {
     background: rgb(167, 243, 183);
 }
 
-/* ----------------------------------------------------------PRODUCT CONTENT--------------------------------- */
+/* ----------------------------------------------------------PRODUCT CONTENT END--------------------------------- */
 
-/* ----------------------------------------------------------SELL CONTENT------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------SELL CONTENT START------------------------------------ */
 
 .sell::before{
     content: 'Find A Buyer';
@@ -740,7 +760,6 @@ img {
     .cards1{
         flex-wrap: wrap;
     }
-    /* mohit work */
     /* .cards1{
         display: flex;
         flex-direction: column;
@@ -785,6 +804,12 @@ img {
 
     .carousel-inner .sizeit{
         height: 30vh;
+    }
+
+    .product-card:last-child{
+        /* height: 70vh; */
+        /* border: 2px solid black; */
+        display: none;
     }
 
 }

@@ -309,7 +309,7 @@ function Home() {
                 </p>
               </div>
             </div>
-            <div className="card card-3">
+            {/* <div className="card card-3">
               <div className="card-img">
                 <img src={Rice} alt="rice"></img>
               </div>
@@ -323,7 +323,7 @@ function Home() {
                   numquam vero veritatis.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
